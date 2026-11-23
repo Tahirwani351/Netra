@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="netra.css">
+</head>
+
+<body>
+    <div class="top">
+        <h1>Netra</h1>
+        <p>ROBOT MISSION CONTROL</p>
+
+        <div id="links">
+            <a href="#">Dashbord</a>
+            <a href="#">Fleet</a>
+            <a href="#">Telementry</a>
+            <a href="#">Alerts</a>
+        </div>
+        <div id="clock"></div>
+        <script src="netra.js"></script>
+        <button id="button">+ Dispatch Mission</button>
+
+    </div>
+    <main class="page">
+        <section class="kpi-grid">
+            <article class="kpi-card">
+                <span>ROVERS ONLINE</span>
+                <h2 id="rover-count">6/6</h2>
+                <p>ACTIVE ROVERS UNITS</p>
+            </article>
+
+            <article class="kpi-card">
+                <span>AVERAGE BATTERY</span>
+                <h2 id="battery-level">73%</h2>
+                <p>FLEET BATTERY LEVEL</p>
+            </article>
+
+            <article class="kpi-card">
+                <span>OPEN ALERTS</span>
+                <h2 id="alert-count">2</h2>
+                <p>REQUIRES ATTENTION</p>
+            </article>
+            <article class="kpi-card">
+                <span>DISTANCE TODAY</span>
+                <h2 id="distance-covered">13.8KM</h2>
+                <p>TOTAL SIMULATED DISTANCE</p>
+            </article>
+
+
+        </section>
+    </main>
+</body>
+
+</html>
